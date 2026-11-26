@@ -1,5 +1,3 @@
--- Run this on a new SQLite database. SQLite 3.37+ is required for STRICT tables.
--- Foreign keys must also be enabled on each separate connection that writes data.
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE customers (
